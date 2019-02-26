@@ -3,12 +3,13 @@ source 'https://rubygems.org'
 ruby '2.4.0'
 gem 'rails', '4.2.10'
 gem 'pg', '~> 0.20'
+#gem 'sqlite3', '~> 1.3.6'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 # for Heroku deployment - as described in Ap. A of ELLS book
 group :development, :test do
-  gem 'sqlite3'
+  gem 'sqlite3', '~> 1.3.6'
   gem 'byebug'
   gem 'database_cleaner', '1.4.1'
   gem 'capybara', '2.4.4'
